@@ -1,0 +1,36 @@
+#mainAnchorPane {
+    -fx-background-color: #DDDDDD;
+}
+
+.root{
+      -fx-font-family: "Times New Roman";
+      -fx-font-size: 16pt;
+}
+
+.button {
+    -fx-background-color: #D4D0C8;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0, 0, 0, 0;
+    -fx-border-width: 1.5 1.5 1.5 1.5;
+    -fx-border-color: #EEEDEA #171717 #171717 #EEEDEA;
+    -fx-border-radius: 0px;
+}
+
+.button:pressed {
+    -fx-background-color: #D4D0C8;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0, 0, 0, 0;
+    -fx-border-width: 1.5 1.5 1.5 1.5;
+    -fx-border-color: #171717 #EEEDEA #EEEDEA #171717;
+    -fx-border-radius: 0px;
+}
+
+
+#button7 {
+    -fx-font-size: 21pt;
+    -fx-background-image: url('Exit.png');
+    -fx-background-size: 28 28;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 275;
+}
+
